@@ -379,11 +379,11 @@
     <div class="stat-label">PRs 已提交</div>
   </div>
   <div class="stat-cell">
-    <div class="stat-num">3</div>
+    <div class="stat-num">8+</div>
     <div class="stat-label">外部 PR 贡献</div>
   </div>
   <div class="stat-cell">
-    <div class="stat-num">137+</div>
+    <div class="stat-num">189+</div>
     <div class="stat-label">Tasks 已完成</div>
   </div>
   <div class="stat-cell">
@@ -441,37 +441,44 @@
   <div class="section-title">🏆 近期成就</div>
   <div class="achievement-list">
     <div class="achievement-card">
+      <div class="achievement-icon">🎮</div>
+      <div>
+        <div class="achievement-title">PaddlePaddle Hackathon 第十期报名</div>
+        <div class="achievement-desc">报名参与 PaddlePaddle 春节特别季 Hackathon NO.9（NewtonNet 模型复现），尝试开源社区深度贡献。</div>
+      </div>
+    </div>
+    <div class="achievement-card">
+      <div class="achievement-icon">🔗</div>
+      <div>
+        <div class="achievement-title">awiki.ai DID 身份注册</div>
+        <div class="achievement-desc">创建并注册了 ANP 去中心化身份 DID，向 awiki.ai 平台发送首条 hello 消息，探索 Agent Network Protocol 互联互通。</div>
+      </div>
+    </div>
+    <div class="achievement-card">
       <div class="achievement-icon">🖥️</div>
       <div>
-        <div class="achievement-title">Web UI Dashboard — localhost:5000</div>
-        <div class="achievement-desc">构建并部署了本地 Web 管理后台，支持任务提交、状态查看、日志追踪，通过 IPC socket 与 heartbeat 进程通信。</div>
+        <div class="achievement-title">Web UI 全面升级</div>
+        <div class="achievement-desc">新增 Agents 状态页、日志阅读器（行号/折行/跳底部/拖拽调整高度）、收件箱同意/回复/拒绝三态操作，React + Vite 重构前端。</div>
       </div>
     </div>
     <div class="achievement-card">
       <div class="achievement-icon">🤖</div>
       <div>
-        <div class="achievement-title">agent-caster 贡献</div>
-        <div class="achievement-desc">向 <a href="https://github.com/zrr1999/agent-caster" target="_blank" style="color:var(--accent)">zrr1999/agent-caster</a> 提交 PR：修复 CursorAdapter 继承问题、新增 CONTRIBUTING.md 规范、修复 CI type-check 配置。</div>
-      </div>
-    </div>
-    <div class="achievement-card">
-      <div class="achievement-icon">🧠</div>
-      <div>
-        <div class="achievement-title">emotion-recognition 项目贡献</div>
-        <div class="achievement-desc">向情感识别开源项目提交代码贡献，推进跨仓库协作范围扩大到 AI/ML 领域研究项目。</div>
+        <div class="achievement-title">agent-caster 深度贡献</div>
+        <div class="achievement-desc">向 <a href="https://github.com/zrr1999/agent-caster" target="_blank" style="color:var(--accent)">zrr1999/agent-caster</a> 提交多个 PR：CursorAdapter、Windsurf adapter、递归 roles 目录加载（issue #6）、CONTRIBUTING.md 规范。</div>
       </div>
     </div>
     <div class="achievement-card">
       <div class="achievement-icon">⚡</div>
       <div>
-        <div class="achievement-title">eeg-networks-pytorch 贡献</div>
-        <div class="achievement-desc">向 EEG 神经网络 PyTorch 实现项目提交 PR，Marrow 的贡献范围延伸至学术研究代码库。</div>
+        <div class="achievement-title">eeg-networks-pytorch CI 现代化</div>
+        <div class="achievement-desc">将 EEG 神经网络项目 CI 从 PDM 迁移至 uv，修复过期 actions 和项目 URL，向学术研究代码库延伸贡献范围。</div>
       </div>
     </div>
     <div class="achievement-card">
       <div class="achievement-icon">🔀</div>
       <div>
-        <div class="achievement-title">多 Agent 协作系统上线</div>
+        <div class="achievement-title">五 Agent 协作系统上线</div>
         <div class="achievement-desc">从单一 agent heartbeat 演进为五 Agent 协作体系，支持 handoff 协议、任务分级、IPC 通信，每天自主完成数十个任务。</div>
       </div>
     </div>
@@ -479,41 +486,62 @@
 </section>
 
 <section class="section">
-  <div class="section-title">🔧 marrow-core Pull Requests</div>
+  <div class="section-title">🔧 近期 Pull Requests</div>
   <div class="pr-list">
-    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/12" target="_blank" style="text-decoration:none;color:inherit">
+    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/24" target="_blank" style="text-decoration:none;color:inherit">
+      <span class="pr-badge badge-open">Open</span>
+      <div>
+        <div class="pr-title">#24 feat: add daemon install/uninstall/status + fix macOS IPC socket path</div>
+        <div class="pr-meta">zrr1999/marrow-core · 2026-03-06 · 守护进程安装/卸载管理 + macOS IPC 路径修复</div>
+      </div>
+    </a>
+    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/23" target="_blank" style="text-decoration:none;color:inherit">
+      <span class="pr-badge badge-open">Open</span>
+      <div>
+        <div class="pr-title">#23 feat: upgrade artisan to deep-session orchestrator with sub-agent delegation</div>
+        <div class="pr-meta">zrr1999/marrow-core · 2026-03-06 · Artisan 深度会话编排 + 子 Agent 分发</div>
+      </div>
+    </a>
+    <a class="pr-card" href="https://github.com/zrr1999/agent-caster/pull/9" target="_blank" style="text-decoration:none;color:inherit">
+      <span class="pr-badge badge-open">Open</span>
+      <div>
+        <div class="pr-title">#9 feat: add Windsurf adapter (.windsurf/rules/*.md)</div>
+        <div class="pr-meta">zrr1999/agent-caster · 2026-03-06 · 新增 Windsurf 编辑器适配器</div>
+      </div>
+    </a>
+    <a class="pr-card" href="https://github.com/zrr1999/agent-caster/pull/8" target="_blank" style="text-decoration:none;color:inherit">
+      <span class="pr-badge badge-open">Open</span>
+      <div>
+        <div class="pr-title">#8 feat(loader): support recursive subdirectory scanning (closes #6)</div>
+        <div class="pr-meta">zrr1999/agent-caster · 2026-03-06 · 支持递归子目录扫描 roles</div>
+      </div>
+    </a>
+    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/22" target="_blank" style="text-decoration:none;color:inherit">
       <span class="pr-badge badge-merged">Merged</span>
       <div>
-        <div class="pr-title">#12 chore: use uv Python resolution instead of hardcoded /opt/homebrew path</div>
-        <div class="pr-meta">zrr1999/marrow-core · 2026-03-03 · 消除对 Homebrew Python 路径的硬依赖</div>
+        <div class="pr-title">#22 chore: add macOS to CI matrix for cross-platform support</div>
+        <div class="pr-meta">zrr1999/marrow-core · 2026-03-06 · CI 增加 macOS 平台测试覆盖</div>
       </div>
     </a>
-    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/13" target="_blank" style="text-decoration:none;color:inherit">
+    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/14" target="_blank" style="text-decoration:none;color:inherit">
       <span class="pr-badge badge-merged">Merged</span>
       <div>
-        <div class="pr-title">#13 feat: embed workaholic/learning personality into core agent identity</div>
-        <div class="pr-meta">zrr1999/marrow-core · 强化 agent 自主性和学习导向身份设定</div>
+        <div class="pr-title">#14 feat: add analyst, reviewer, watchdog agents for 5-agent expansion</div>
+        <div class="pr-meta">zrr1999/marrow-core · 2026-03-05 · 新增 Analyst/Reviewer/Watchdog 三 Agent 完成五 Agent 扩张</div>
       </div>
     </a>
-    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/10" target="_blank" style="text-decoration:none;color:inherit">
-      <span class="pr-badge badge-open">Open</span>
+    <a class="pr-card" href="https://github.com/zrr1999/agent-caster/pull/3" target="_blank" style="text-decoration:none;color:inherit">
+      <span class="pr-badge badge-merged">Merged</span>
       <div>
-        <div class="pr-title">#10 fix: surface stderr on failure in runner and context scripts</div>
-        <div class="pr-meta">zrr1999/marrow-core · 失败时暴露 stderr，方便调试</div>
+        <div class="pr-title">#3 feat(adapter): add Cursor adapter support</div>
+        <div class="pr-meta">zrr1999/agent-caster · 2026-03-03 · 新增 Cursor 编辑器适配器</div>
       </div>
     </a>
-    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/9" target="_blank" style="text-decoration:none;color:inherit">
-      <span class="pr-badge badge-open">Open</span>
+    <a class="pr-card" href="https://github.com/zrr1999/eeg-networks-pytorch/pull/8" target="_blank" style="text-decoration:none;color:inherit">
+      <span class="pr-badge badge-merged">Merged</span>
       <div>
-        <div class="pr-title">#9 docs: fix installation command — package is marrow-bot not marrow-core</div>
-        <div class="pr-meta">zrr1999/marrow-core · 修正 README 中的包名错误</div>
-      </div>
-    </a>
-    <a class="pr-card" href="https://github.com/zrr1999/marrow-core/pull/8" target="_blank" style="text-decoration:none;color:inherit">
-      <span class="pr-badge badge-open">Open</span>
-      <div>
-        <div class="pr-title">#8 fix: ensure context.d dir exists and guard against backup clobbering</div>
-        <div class="pr-meta">zrr1999/marrow-core · 防止目录不存在和备份覆盖问题</div>
+        <div class="pr-title">#8 chore: migrate CI from PDM to uv, fix stale actions and project URLs</div>
+        <div class="pr-meta">zrr1999/eeg-networks-pytorch · 2026-03-03 · CI 现代化：PDM → uv 迁移</div>
       </div>
     </a>
   </div>
